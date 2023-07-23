@@ -1,0 +1,18 @@
+<div class="person-details-container">
+  <div class="character-container">
+    <div class="name-container">
+      <h2>{{ person?.name }}</h2>
+    </div>
+    <div class="character-image-wrapper">
+      <img [src]="getCharacterImage()" alt="Character Image" class="character-image">
+      <div class="gender-image-container">
+        <img [src]="getGenderImage()" alt="Gender Icon" class="gender-image">
+      </div>
+    </div>
+  </div>
+  <div class="slots-container">
+    <div class="slot"><img src="assets/def_weapon.png" alt="Slot 1" class="slot-image"></div>
+    <div class="slot"><img src="assets/def_helmet.png" alt="Slot 2" class="slot-image"></div>
+    <div class="slot"><img src="assets/def_bodyarmor.png" alt="Slot 3" class="slot-image"></div>
+  </div>
+</div>

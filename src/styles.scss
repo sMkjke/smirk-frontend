@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #777;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.character-panel {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.character-image {
+  width: 200px;
+  height: 280px;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

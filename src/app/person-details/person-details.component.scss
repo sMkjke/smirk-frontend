@@ -1,0 +1,72 @@
+.person-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.person-info {
+  font-size: 10px;
+  margin-right: 20px;
+}
+
+.character-container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.name-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 1;
+  font-family: Cursive, Lucida Handwriting;
+  font-size: 12px;
+  color: darkmagenta;
+}
+
+.name-container h2 {
+  margin: 0;
+}
+
+.character-image {
+  width: 200px;
+  height: 280px;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+}
+
+.slots-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.slot {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slot-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.gender-image-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gender-image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.gender-image {
+  width: 30px;
+  height: 30px;
+}
